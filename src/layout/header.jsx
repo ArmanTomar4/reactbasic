@@ -6,8 +6,8 @@ function Header() {
         <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <div className="container-fluid">
                 <Link to="#" className="navbar-brand">
-                    <img src="image/ff-logo-02.png" className="weblogo" alt="" />
-                    <img src="image/logo-for-mobile.png" className="moblogo" alt="" />
+                    <img src="https://pn-paul.netlify.app/image/ff-logo-02.png" className="weblogo" alt="" />
+                    <img src="https://pn-paul.netlify.app/image/logo-for-mobile.png" className="moblogo" alt="" />
                 </Link>
 
                 {/* mobile menu */}
@@ -34,13 +34,13 @@ function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link className="nav-link" to="/ourteam" style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                            <Link className="nav-link" to="/team" style={{ fontWeight: "lighter", fontSize: "15px" }}>
                                 OUR TEAM
                             </Link>
                         </li>
                         <li>
                             <Link
-                                to="PRESS RELEASE.html"
+                                to="/pressrelease"
                                 className="nav-link"
                                 style={{ fontWeight: "lighter", fontSize: "15px" }}
                             >

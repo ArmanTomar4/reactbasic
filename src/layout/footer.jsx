@@ -8,7 +8,7 @@ function Footer() {
 
                     <div className="col-md-3">
                         <img
-                            src="image/ff-logo-02.png"
+                            src="https://pn-paul.netlify.app/image/ff-logo-02.png"
                             style={{ width: "80%", marginTop: "2cm" }}
                             alt=""
                         />

@@ -1,10 +1,10 @@
 // import React from "react";
-// import Slide from "../layout/Slider";
+import Slidebar from "../layout/slidebar";
 
 function Home() {
   return (
     <>
-      {/* <Slide /> */}
+      <Slidebar />
       <div className="container mt-3">
         <h2 className="text-center text">
           Welcome To <b style={{ color: "red" }}>FIRST FIDDLE</b>
@@ -39,11 +39,9 @@ function Home() {
           </div>
         </div>
       </div>
-
       <br />
       <br />
       <br />
-
       <div className="container-fluid bg">
         <div className="row">
           <div className="col-md-2"></div>
@@ -65,7 +63,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <div className="container mt-5 mb-5">
         <h1 className="text-center">
           EXPLORE <span style={{ color: "orange" }}>OUR BRAND</span>
@@ -105,7 +102,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <div className="container-fluid bg01">
         <div className="row">
           <div className="col-md-2"></div>
@@ -129,5 +125,4 @@ function Home() {
     </>
   );
 }
-
 export default Home;
