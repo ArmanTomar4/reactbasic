@@ -1,0 +1,161 @@
+/* Ensures the body and html take up the full height */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Container for the entire app */
+#root,
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Full height of the viewport */
+}
+
+/* Main content (between header and footer) */
+.App>*:nth-child(2) {
+    /* Assuming Home is the second child */
+    flex: 1;
+    /* Pushes the footer to the bottom */
+}
+
+/* Footer styles */
+footer {
+    background-color: #111215;
+    /* Example color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.a {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.b {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.img123 {
+    width: 80%;
+}
+
+.aa {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.ex {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px
+}
+
+.our {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px
+}
+
+.aaa {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.navbar-nav a:hover {
+    background-color: #fbac1b;
+    transition: 1sec;
+}
+
+.weblogo {
+    width: 65px;
+}
+
+.navbar {
+    background: #00000082 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.moblogo {
+    display: none;
+}
+
+.send {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.go {
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding-bottom: 12px;
+}
+
+.read {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    font-weight: lighter;
+}
+
+
+
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #fbac1b !important;
+    }
+
+    .img123 {
+        width: 100%;
+    }
+
+    .foot {
+        display: none;
+    }
+
+    .carousel {
+        margin-top: 2.65cm;
+    }
+}

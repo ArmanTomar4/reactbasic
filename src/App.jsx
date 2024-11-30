@@ -1,10 +1,14 @@
-import React from 'react'
+// import React from 'react'
 import Home from './pages/Home'
-
+import './style.css'
+import Header from './layout/header'
+import Footer from './layout/footer'
 function App() {
   return (
-    <div>
+    <div className='App'>  
+      <Header/>
       <Home/>
+      <Footer/>
     </div>
   )
 }
