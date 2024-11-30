@@ -1,12 +1,14 @@
+// import React from 'react'
+import { Link } from 'react-router-dom'
 function Header() {
     return (
       <>
         <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <div className="container-fluid">
-                <a href="#" className="navbar-brand">
+                <Link to="#" className="navbar-brand">
                     <img src="image/ff-logo-02.png" className="weblogo" alt="" />
                     <img src="image/logo-for-mobile.png" className="moblogo" alt="" />
-                </a>
+                </Link>
 
                 {/* mobile menu */}
                 <button className="navbar-toggler" data-bs-target="#pn" data-bs-toggle="collapse">
@@ -17,52 +19,52 @@ function Header() {
                 <div className="navbar-collapse collapse" id="pn">
                     <ul className="navbar-nav ms-auto text-center">
                         <li>
-                            <a className="nav-link" href="/" style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                            <Link className="nav-link" to="/" style={{ fontWeight: "lighter", fontSize: "15px" }}>
                                 HOME
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a className="nav-link" href="/about" style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                            <Link className="nav-link" to="/about" style={{ fontWeight: "lighter", fontSize: "15px" }}>
                                 ABOUT
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a className="nav-link" href="/brand" style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                            <Link className="nav-link" to="/brand" style={{ fontWeight: "lighter", fontSize: "15px" }}>
                                 BRAND
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a className="nav-link" href="/ourteam" style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                            <Link className="nav-link" to="/ourteam" style={{ fontWeight: "lighter", fontSize: "15px" }}>
                                 OUR TEAM
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="PRESS RELEASE.html"
+                            <Link
+                                to="PRESS RELEASE.html"
                                 className="nav-link"
                                 style={{ fontWeight: "lighter", fontSize: "15px" }}
                             >
                                 PRESS RELEASE
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a className="nav-link" href="/contact" style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                            <Link className="nav-link" to="/contact" style={{ fontWeight: "lighter", fontSize: "15px" }}>
                                 CONTACT
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a className="nav-link" href="/careers" style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                            <Link className="nav-link" to="/careers" style={{ fontWeight: "lighter", fontSize: "15px" }}>
                                 CAREERS
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="#"
+                            <Link
+                                to="#"
                                 className="nav-link"
                                 style={{ fontWeight: "lighter", fontSize: "15px", border: "1px orange solid" }}
                             >
                                 FRANCHISE
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

@@ -1,161 +1,114 @@
-/* Ensures the body and html take up the full height */
-html,
-body {
-    height: 100%;
-    margin: 0;
-}
-
-/* Container for the entire app */
-#root,
-.App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    /* Full height of the viewport */
-}
-
-/* Main content (between header and footer) */
-.App>*:nth-child(2) {
-    /* Assuming Home is the second child */
-    flex: 1;
-    /* Pushes the footer to the bottom */
-}
-
-/* Footer styles */
-footer {
-    background-color: #111215;
-    /* Example color */
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-
-.a {
-    text-align: center;
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-family: 'prague';
-    letter-spacing: 3px;
-}
-
-.b {
-    line-height: 35px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    padding-right: 5px;
-    text-align: justify;
-}
-
-.img123 {
-    width: 80%;
-}
-
-.aa {
-    line-height: 35px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    padding-right: 5px;
-    text-align: justify;
-}
-
-.ex {
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-family: 'prague';
-    letter-spacing: 3px
-}
-
-.our {
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-family: 'prague';
-    letter-spacing: 3px
-}
-
-.aaa {
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-family: 'prague';
-    letter-spacing: 3px;
-}
-
-.navbar-nav a:hover {
-    background-color: #fbac1b;
-    transition: 1sec;
-}
-
-.weblogo {
+.weblogo{
     width: 65px;
 }
 
-.navbar {
-    background: #00000082 !important;
-}
-
-.navbar-nav li {
-    padding: 0 10px;
-}
-
-.navbar-nav li a {
-    color: #fff !important;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.moblogo {
+.moblogo{
     display: none;
 }
 
-.send {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
+.bgColor{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 }
 
-.go {
-    line-height: 20px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    padding-right: 5px;
-    margin-top: 20px;
-    font-weight: lighter;
-    padding-bottom: 12px;
+.textcolor{
+    color: #f3f3f2;
+    font-size: 17px;
 }
 
-.read {
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    padding-right: 5px;
-    font-weight: lighter;
+.navbar-nav li{
+           padding: 0 10px;
 }
 
+.navbar-nav li a:hover{
+        border: 1px solid orange;
+        background-color: orange;
+    }
 
+    .text{
+        font-family: 'prague';
+        letter-spacing: 3px;
+    }
 
+    .para{
+        line-height: 35px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding-right: 5px;
+        text-align: justify;
+    }
 
-@media(max-width:768px) {
-    .moblogo {
+    .bg{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHykIu9S6vxVV3zgbeafcgJvkNQ2lmOwZ82iIa38dIUg&s);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .clr{
+        color:#ffffff;
+        margin-top: 140px;
+    }
+
+    .para01{
+        color: #ffffff;
+        line-height: 40px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding-right: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+     .content{
+        text-align: center;
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-family: 'prague';
+        letter-spacing: 3px;
+     }
+
+     .bg01{
+        background: url(https://pn-paul.netlify.app/image/ffback2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+      .context01{
+        padding-top: 45px;
+        text-transform: uppercase;
+        font-family: 'prague';
+        letter-spacing: 3px;
+      }
+
+      .para00{
+        line-height: 30px;
+        word-spacing: 1px;
+        font-size: 18px;
+        color: aliceblue;
+      }
+
+      .context00{
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-family: 'prague';
+        letter-spacing: 3px;
+    }
+      
+  @media(max-width: 768px){
+    .moblogo{
         display: block;
     }
 
-    .weblogo {
+    .weblogo{
         display: none;
     }
 
-    .navbar {
-        background: #fbac1b !important;
+    .navbar{
+        background: #fbac1b;
     }
 
-    .img123 {
-        width: 100%;
+    .navbar-nav li a{
+        color:#fff !important;
+        font-weight: 600;
+        font-size: 20px;
     }
-
-    .foot {
-        display: none;
-    }
-
-    .carousel {
-        margin-top: 2.65cm;
-    }
-}
+  }
