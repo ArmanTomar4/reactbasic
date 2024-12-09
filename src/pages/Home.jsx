@@ -1,6 +1,5 @@
 // import React from "react";
 import Slidebar from "../layout/slidebar";
-
 function Home() {
   return (
     <>
@@ -19,7 +18,6 @@ function Home() {
               industry with over 30+ restaurants, brands, and franchises across
               India.
             </p>
-
             <center>
               <button
                 className="btn btn-warning btn-lg mt-5"
@@ -29,7 +27,6 @@ function Home() {
               </button>
             </center>
           </div>
-
           <div className="col-md-5 mt-3 text-center">
             <img
               src="https://pn-paul.netlify.app/image/first.jpg"
